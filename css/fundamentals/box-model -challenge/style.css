@@ -1,0 +1,30 @@
+.class-one{
+ background-color: lightgreen;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid orangered;
+}
+
+.card, .card-more-content{
+  background-color: pink;
+  padding: 20px 10px 20px 10px;
+  border: 1px solid orangered;
+  margin:1px;
+}
+
+.card > h1, .card-more-content > h1{
+  padding-left: 30px;
+
+}
+.card > h3, .card-more-content > h3{
+  padding-left: 50px;
+  
+}
+
+
+
+
+
+
+
+/* BOX MODEL */
