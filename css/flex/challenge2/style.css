@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main{
+  height: 300px;
+  width: 900px;
+  display: flex;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+div {
+  width: calc(100% / 3);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blue {
+  background-color: lightskyblue;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#pink {
+  background-color: hotpink;
+}
+
+#red {
+  background-color: red;
+}
+

@@ -1,0 +1,57 @@
+div{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  width: 600px;
+  border: 1px solid black;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+#lightBlue {
+  background-color: rgb(192, 216, 224);
+}
+
+#red {
+  background-color: rgb(205, 124, 124);
+}
+
+#green {
+  background-color: lightgreen;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#pink{
+  background-color: hotpink;
+}
+
+#gray{
+  background-color: lightslategray;
+}
+
+#skyBlue{
+  background-color: rgb(174, 226, 246);
+}
+
+#blue{
+  background-color: rgb(71, 189, 235);
+}
+
+
+
