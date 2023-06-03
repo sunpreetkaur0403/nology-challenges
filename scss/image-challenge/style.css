@@ -1,0 +1,46 @@
+.header-section--green-border {
+  border: 3px dashed green;
+  font-family: Arial;
+}
+.header-section--green-border .para-line-through {
+  color: blue;
+  text-decoration: line-through;
+}
+
+.header-section--coral-border {
+  border: 2px solid coral;
+  font-family: Arial;
+  margin-bottom: 40px;
+}
+.header-section--coral-border h1 {
+  text-align: center;
+}
+.header-section--coral-border p:last-of-type {
+  color: blue;
+  text-decoration: line-through;
+  text-align: right;
+}
+
+main section {
+  border: 2px solid black;
+}
+main section h1 {
+  color: blue;
+  font-family: Arial;
+}
+main section p {
+  color: red;
+  text-decoration: underline;
+  font-family: Arial;
+}
+main section ul li {
+  list-style-type: none;
+}
+main p {
+  color: coral;
+}
+main .para--brown {
+  color: brown;
+}
+
+/*# sourceMappingURL=style.css.map */
