@@ -1,7 +1,7 @@
 const hobbies = ["Watching Netflix","Listening to music", "Reading books"];
 console.log(hobbies[0]);
 
-const firstHobby = hobbies.pop();
+const firstHobby = hobbies.shift();
 
 const arrayLength = hobbies.length;
 
