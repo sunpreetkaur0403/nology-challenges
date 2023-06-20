@@ -93,6 +93,11 @@ addNoToShoppingList();
   const newString = removeVowels(originalString);
   console.log(newString); 
 
+
+const nameWithVowels = "martyna";
+const nameWithoutVowels = nameWithVowels.replace(/[aeiou]/gi, "");
+
+console.log(nameWithoutVowels);
   /* ## Loop through an array backwards
 Console.log() every element from the array */
 
